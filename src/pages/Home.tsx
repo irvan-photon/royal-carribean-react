@@ -5,15 +5,27 @@ export default function Home() {
   return (
     <div className="flex flex-col mx-auto w-full text-black bg-white max-w-[480px]">
       <div className="flex flex-col pl-4 w-full">
+      <div className="flex flex-col self-stretch pb-2.5 pl-4 w-full text-lg leading-5 text-center" style={{ backgroundColor: "#dff2ff" }}>
+        <div className="flex gap-5 pt-8 items-center mt-1.5 text-black uppercase font-[510]">
+        <div className="flex justify-center">
+  <img
+    loading="lazy"
+    src="https://www.royalcaribbean.com/content/dam/royal/resources/icons/logo/royal-caribbean-logo-no-border.svg"
+    className="shrink-0 aspect-[1.2] fill-neutral-800 w-[18px]"
+  />
+</div>
+          
+        </div>
+      </div>
         <div className="flex gap-5 mt-3.5 font-[510]">
-          <div className="flex-auto text-lg leading-5">Explore 631 Cruise Vacations</div>
+
           <div className="flex gap-2 self-start text-sm leading-5 text-right uppercase whitespace-nowrap">
             <img
               loading="lazy"
               src="https://cdn.builder.io/api/v1/image/assets/TEMP/b120dc3ba39478472c089573e082acff45254067d417a04cdbdb800a9dc147bf?apiKey=e3022d4918f742d58a54267602e34d98&"
               className="shrink-0 aspect-[1.2] fill-neutral-800 w-[18px]"
             />
-            <div className="my-auto">Filters</div>
+            <div className="my-auto">Sign in</div>
           </div>
         </div>
         <div className="flex gap-5 mt-5 text-xs leading-5 uppercase font-[510]">

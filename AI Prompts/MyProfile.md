@@ -108,10 +108,11 @@ return (
     - Make sure to use the correct class names for the styles to be applied.
     - The component should look like the reference image when rendered.
     - Navigate using the react-router-dom. the version is 6.25.1
-    - Use the useNavigate hook to navigate to MyProfile component.
+    - Use the useNavigate hook for any navigation code.
     - Change all color from gray to #dff2ff.
     
-    - Code "Edit Profile" button to open the MyProfile component on successful login.
-    - provide the necessary logic for empty fields validation, show an inline error in red font
-    
+    - Code "Edit Profile" button to open the ProfileEdit page
+    - Code "Update Settings" button to open the SettingUpdate page
+    - Code "View Latitudes Rewards" button to open the Rewards page
+
 </Instructions>
