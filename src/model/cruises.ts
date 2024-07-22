@@ -1,7 +1,7 @@
 export const cruisesData = [
   {
     id: 1,
-    imageSrcSet: "https://cdn.builder.io/api/v1/image/assets/TEMP/f93b52a8-e93a-40a2-bcee-2c26823ae75d?apiKey=e3022d4918f742d58a54267602e34d98&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/f93b52a8-e93a-40a2-bcee-2c26823ae75d?apiKey=e3022d4918f742d58a54267602e34d98&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/f93b52a8-e93a-40a2-bcee-2c26823ae75d?apiKey=e3022d4918f742d58a54267602e34d98&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/f93b52a8-e93a-40a2-bcee-2c26823ae75d?apiKey=e3022d4918f742d58a54267602e34d98&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/f93b52a8-e93a-40a2-bcee-2c26823ae75d?apiKey=e3022d4918f742d58a54267602e34d98&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/f93b52a8-e93a-40a2-bcee-2c26823ae75d?apiKey=e3022d4918f742d58a54267602e34d98&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/f93b52a8-e93a-40a2-bcee-2c26823ae75d?apiKey=e3022d4918f742d58a54267602e34d98&width=2000 2000w",
+    imageSrcSet: "https://www.ncl.com/sites/default/files/634x348_ncl_Encore_aerial_0177_0.jpg",
     title: "7-DAY CRUISE ON NORWEGIAN ENCORE",
     subtitle: "Alaska: Glacier Bay, Skagway & Juneau",
     departure: "from Seattle, Washington",
@@ -14,7 +14,7 @@ export const cruisesData = [
   },
   {
     id: 2,
-    imageSrcSet: "https://cdn.builder.io/api/v1/image/assets/TEMP/f93b52a8-e93a-40a2-bcee-2c26823ae75d?apiKey=e3022d4918f742d58a54267602e34d98&width=1600",
+    imageSrcSet: "https://www.thelovelyescapist.com/wp-content/uploads/2020/03/AUC_8655-2.jpg",
     title: "7-DAY CRUISE ON NORWEGIAN PRIMA",
     subtitle: "Bermuda & Virginia Beach: Nassau & Private Island",
     departure: "from New York City, New York",

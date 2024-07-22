@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Login from './pages/Login';
 import Home from './pages/Home';
 import Itinerary from './pages/Itinerary';
+import MyProfile from './pages/MyProfile';
 
 import Checkout from './pages/checkout/checkout'
 import CheckoutDateConfirmation from './pages/checkout/dateConfirmation'
@@ -23,6 +24,7 @@ function App() {
         <Route path="/checkout-card-price-confirm" element={<CheckoutCardPriceConfirm />} />
         <Route path="/checkout-confirmation" element={<CheckoutConfirmation />} />
         <Route path="/checkout-additional-input" element={<CheckoutAdditionalInput />} />
+        <Route path="/MyProfile" element={<MyProfile />} />
       </Routes>
     </Router>
   );
