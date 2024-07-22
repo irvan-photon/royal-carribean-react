@@ -6,7 +6,7 @@ export default function Home() {
     <div className="flex flex-col mx-auto w-full text-black bg-white max-w-[480px]">
       <div className="flex flex-col pl-4 w-full">
       <div className="relative flex flex-col self-stretch pt-2.5 pb-2.5 w-full text-lg leading-5 text-center" style={{ backgroundColor: "#dff2ff" }}>
-        <div className="flex">
+        <div className="flex justify-center items-center">
           <img
             loading="lazy"
             src="https://www.royalcaribbean.com/content/dam/royal/resources/icons/logo/royal-caribbean-logo-no-border.svg"
@@ -18,7 +18,8 @@ export default function Home() {
         </div>
       </div>
         <div className="flex gap-5 mt-5 text-xs leading-5 uppercase font-[510]">
-          <div className="grow my-auto">Sort by</div>
+          <div className="grow my-auto"></div>
+          <div className="my-auto">Sort by</div>
           <div className="flex flex-auto gap-5 justify-between py-2.5 pr-7 pl-3.5 whitespace-nowrap border border-solid border-zinc-300">
             <div className="my-auto">Featured</div>
             <img
