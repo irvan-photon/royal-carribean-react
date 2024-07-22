@@ -6,7 +6,7 @@ export default function Home() {
     <div className="flex flex-col mx-auto w-full text-black bg-white max-w-[480px]">
       <div className="flex flex-col pl-4 w-full">
       <div className="relative flex flex-col self-stretch pt-2.5 pb-2.5 w-full text-lg leading-5 text-center" style={{ backgroundColor: "#dff2ff" }}>
-        <div className="flex justify-center items-center">
+        <div className="flex">
           <img
             loading="lazy"
             src="https://www.royalcaribbean.com/content/dam/royal/resources/icons/logo/royal-caribbean-logo-no-border.svg"
