@@ -1,10 +1,16 @@
 import * as React from "react";
 import { itineraryData } from "../../model/itinerary";
+import { useNavigate } from 'react-router-dom';
 
 export default function Itinerary() {
+  const navigate = useNavigate();
+
+  const handleContinue = () => {
+    navigate('/');
+  };
   return (
     <div className="flex flex-col pb-14 mx-auto w-full bg-white max-w-[480px]">
-        <div className="flex flex-col self-stretch pb-2.5 pl-4 w-full text-lg leading-5 text-center" style={{ backgroundColor: "#dff2ff" }}>
+      <div className="flex flex-col self-stretch pb-2.5 pl-4 w-full text-lg leading-5 text-center" style={{ backgroundColor: "#dff2ff" }}>
         <div className="flex gap-5 pt-8 items-center mt-1.5 text-black uppercase font-[510]">
           <div className="flex-auto self-stretch my-auto">My Itinerary</div>
         </div>
@@ -146,8 +152,8 @@ export default function Itinerary() {
           {itineraryData.itinerary[5].time}
         </div>
       </div>
-      <div className="justify-center items-center self-center px-16 py-4 mt-4 w-full text-base leading-6 text-center text-black uppercase bg-zinc-300 font-[510] max-w-[359px]">
-        Show 1 more day
+      <div className="justify-center items-center self-center px-16 py-4 mt-4 w-full text-base leading-6 text-center text-black uppercase bg-zinc-300 font-[510] max-w-[359px] cursor-pointer" onClick={handleContinue}>
+        Back To Home
       </div>
       <div className="justify-center items-end px-16 py-6 w-full text-sm leading-5 text-right text-black uppercase bg-neutral-100 font-[510]">
         Itinerary map
