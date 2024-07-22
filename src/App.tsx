@@ -11,6 +11,9 @@ import CheckoutCardPriceConfirm from './pages/checkout/cardPriceConfirm'
 import CheckoutConfirmation from './pages/checkout/checkoutConfirmation'
 import CheckoutAdditionalInput from './pages/checkout/checkoutAdditionalInput'
 
+import StartPlanningSelectDate from './pages/start-planning/selectDate'
+import StartPlanningDetail from './pages/start-planning/detailPlanning'
+
 function App() {
   return (
     <Router>
@@ -18,6 +21,9 @@ function App() {
         <Route path="/login" element={<Login />} />
         <Route path="/" element={<Home />} />
         <Route path="/itinerary" element={<Itinerary />} />
+
+        <Route path="/start-planning-select-date" element={<StartPlanningSelectDate />} />
+        <Route path="/start-planning-detail" element={<StartPlanningDetail />} />
 
         <Route path="/checkout" element={<Checkout />} />
         <Route path="/checkout-date-confirmation" element={<CheckoutDateConfirmation />} />
