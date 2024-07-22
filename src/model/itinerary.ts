@@ -1,6 +1,6 @@
 // data.js
 export const itineraryData = {
-  imageSrc: "https://cdn.builder.io/api/v1/image/assets/TEMP/017fbb000b58c564b9150123658438c5a0d5dad95f84c0d93149f2f39599b2d4?apiKey=e3022d4918f742d58a54267602e34d98&",
+  imageSrc: "https://www.ncl.com/sites/default/files/634x348_ncl_Encore_aerial_0177_0.jpg",
   title: "7-DAY CRUISE ON NORWEGIAN ENCORE",
   subtitle: "Alaska: Glacier Bay, Skagway & Juneau",
   location: "from Seattle, Washington",

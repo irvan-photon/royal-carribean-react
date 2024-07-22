@@ -4,7 +4,12 @@ import { itineraryData } from "../model/itinerary";
 export default function Itinerary() {
   return (
     <div className="flex flex-col pb-14 mx-auto w-full bg-white max-w-[480px]">
-      <div className="flex flex-col pl-4 w-full text-black">
+        <div className="flex flex-col self-stretch pb-2.5 pl-4 w-full text-lg leading-5 text-center" style={{ backgroundColor: "#dff2ff" }}>
+        <div className="flex gap-5 pt-8 items-center mt-1.5 text-black uppercase font-[510]">
+          <div className="flex-auto self-stretch my-auto">My Itinerary</div>
+        </div>
+      </div>
+      <div className="flex flex-col  w-full text-black">
         <img
           loading="lazy"
           src={itineraryData.imageSrc}
