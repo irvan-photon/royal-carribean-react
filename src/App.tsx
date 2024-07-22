@@ -1,10 +1,10 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import Login from './pages/Login';
+import Login from './pages/account/Login';
 import Home from './pages/Home';
-import Itinerary from './pages/Itinerary';
-import MyProfile from './pages/MyProfile';
-import ProfileEdit from './pages/ProfileEdit';
+import Itinerary from './pages/book/Itinerary';
+import MyProfile from './pages/account/MyProfile';
+import ProfileEdit from './pages/account/ProfileEdit';
 //import SettingUpdate from './pages/SettingUpdate';
 //import Rewards from './pages/Rewards';
 

@@ -5,29 +5,18 @@ export default function Home() {
   return (
     <div className="flex flex-col mx-auto w-full text-black bg-white max-w-[480px]">
       <div className="flex flex-col pl-4 w-full">
-      <div className="flex flex-col self-stretch pb-2.5 pl-4 w-full text-lg leading-5 text-center" style={{ backgroundColor: "#dff2ff" }}>
-        <div className="flex gap-5 pt-8 items-center mt-1.5 text-black uppercase font-[510]">
-        <div className="flex justify-center">
-  <img
-    loading="lazy"
-    src="https://www.royalcaribbean.com/content/dam/royal/resources/icons/logo/royal-caribbean-logo-no-border.svg"
-    className="shrink-0 aspect-[1.2] fill-neutral-800 w-[18px]"
-  />
-</div>
-          
+      <div className="relative flex flex-col self-stretch pt-2.5 pb-2.5 w-full text-lg leading-5 text-center" style={{ backgroundColor: "#dff2ff" }}>
+        <div className="flex justify-center items-center">
+          <img
+            loading="lazy"
+            src="https://www.royalcaribbean.com/content/dam/royal/resources/icons/logo/royal-caribbean-logo-no-border.svg"
+            className="shrink-0 aspect-[1.2] fill-neutral-800 w-[200px] h-[50px]"
+          />
+        </div>
+        <div className="absolute top-[25px] right-5">
+          <a href="/login" className="text-sm font-[510] hover:text-neutral-600 px-4 py-2 rounded">Sign In</a>
         </div>
       </div>
-        <div className="flex gap-5 mt-3.5 font-[510]">
-
-          <div className="flex gap-2 self-start text-sm leading-5 text-right uppercase whitespace-nowrap">
-            <img
-              loading="lazy"
-              src="https://cdn.builder.io/api/v1/image/assets/TEMP/b120dc3ba39478472c089573e082acff45254067d417a04cdbdb800a9dc147bf?apiKey=e3022d4918f742d58a54267602e34d98&"
-              className="shrink-0 aspect-[1.2] fill-neutral-800 w-[18px]"
-            />
-            <div className="my-auto">Sign in</div>
-          </div>
-        </div>
         <div className="flex gap-5 mt-5 text-xs leading-5 uppercase font-[510]">
           <div className="grow my-auto">Sort by</div>
           <div className="flex flex-auto gap-5 justify-between py-2.5 pr-7 pl-3.5 whitespace-nowrap border border-solid border-zinc-300">

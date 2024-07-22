@@ -1,5 +1,5 @@
 import * as React from "react";
-import { itineraryData } from "../model/itinerary";
+import { itineraryData } from "../../model/itinerary";
 
 export default function Itinerary() {
   return (
