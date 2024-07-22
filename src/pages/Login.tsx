@@ -20,7 +20,7 @@ export default function Login() {
   };
 
   return (
-    <div className="flex flex-col items-center pb-2 mx-auto w-full" style={{ backgroundColor: '#336296', maxWidth: '480px' }}>
+    <div className="flex flex-col items-center pb-2 mx-auto w-full" >
       <div className="flex flex-col pb-6 mt-40 w-full text-black bg-white border border-solid border-neutral-200" style={{ fontFamily: '510', maxWidth: '357px' }}>
         <div className="justify-center items-start px-6 py-6 text-lg leading-5 bg-neutral-200">
           Enter Your Account Information
