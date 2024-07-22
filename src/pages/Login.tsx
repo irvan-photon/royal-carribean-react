@@ -1,6 +1,15 @@
-import * as React from "react";
+import React from 'react';
+import { useNavigate } from 'react-router-dom';
 
 export default function Login() {
+  const navigate = useNavigate();
+
+  const handleLogin = () => {
+    // Logic for logging in (authentication) goes here
+    // For now, we'll just navigate to the /myprofile page
+    navigate('/myprofile');
+  };
+
   return (
     <div className="flex flex-col items-center pb-2 mx-auto w-full bg-white max-w-[480px]">
       <div className="flex flex-col pb-6 mt-40 w-full text-black bg-white border border-solid border-neutral-200 font-[510] max-w-[357px]">
@@ -28,11 +37,14 @@ export default function Login() {
             <div className="my-auto">Stay logged in</div>
           </div>
           <div className="mt-5">Forgot Username or Password?</div>
-          <button className="justify-center items-center px-16 py-5 mt-5 text-base leading-6 text-center uppercase bg-zinc-300">
+          <button
+            onClick={handleLogin}
+            className="justify-center items-center px-16 py-5 mt-5 text-base leading-6 text-center uppercase bg-zinc-300"
+          >
             Log In
           </button>
           <div className="mt-7 leading-6 uppercase">
-            Need a Brand Name Account?{" "}
+            Need a Brand Name Account?{' '}
             <span className="font-bold uppercase">Register</span>
           </div>
         </div>
