@@ -4,6 +4,14 @@ import Login from './pages/Login';
 import Home from './pages/Home';
 import Itinerary from './pages/Itinerary';
 import MyProfile from './pages/MyProfile';
+import ProfileEdit from './pages/ProfileEdit';
+//import SettingUpdate from './pages/SettingUpdate';
+//import Rewards from './pages/Rewards';
+
+//<Route path="/SettingUpdate" element={<SettingUpdate />} />
+//<Route path="/Rewards" element={<Rewards />} />
+
+
 
 import Checkout from './pages/checkout/checkout'
 import CheckoutDateConfirmation from './pages/checkout/dateConfirmation'
@@ -31,6 +39,7 @@ function App() {
         <Route path="/checkout-confirmation" element={<CheckoutConfirmation />} />
         <Route path="/checkout-additional-input" element={<CheckoutAdditionalInput />} />
         <Route path="/MyProfile" element={<MyProfile />} />
+        <Route path="/ProfileEdit" element={<ProfileEdit />} />
       </Routes>
     </Router>
   );
