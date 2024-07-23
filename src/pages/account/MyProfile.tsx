@@ -31,7 +31,7 @@ export default function MyComponent() {
       </div>
       <div className="flex flex-col self-stretch px-4 mt-5 w-full text-lg leading-5 text-black font-[510]">
         <div className="shrink-0 h-px border border-solid" style={{ backgroundColor: "#dff2ff", borderColor: "#dff2ff" }} />
-        <button className="flex gap-5 mt-8 uppercase w-full justify-between items-center p-2 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200" onClick={() => navigate('/ProfileUpdate')}>
+        <button className="flex gap-5 p-2 pt-8 pb-8 uppercase w-full justify-between items-center hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200" onClick={() => navigate('/ProfileEdit')}>
           <span className="flex-auto text-left">Edit Profile</span>
           <img
             loading="lazy"
@@ -39,8 +39,8 @@ export default function MyComponent() {
             className="shrink-0 w-2.5 border-2 border-solid aspect-[0.56] border-neutral-800 stroke-[2px] stroke-neutral-800"
           />
         </button>
-        <div className="shrink-0 mt-5 h-px border border-solid" style={{ backgroundColor: "#dff2ff", borderColor: "#dff2ff" }} />
-        <button className="flex gap-5 mt-6 uppercase w-full justify-between items-center p-2 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200" onClick={() => navigate('/SettingUpdate')}>
+        <div className="shrink-0 h-px border border-solid" style={{ backgroundColor: "#dff2ff", borderColor: "#dff2ff" }} />
+        <button className="flex gap-5 uppercase w-full justify-between items-center p-2 pt-8 pb-8 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200" onClick={() => navigate('/UpdateSettings')}>
           <span className="flex-auto text-left">Update Settings</span>
           <img
             loading="lazy"
@@ -48,8 +48,8 @@ export default function MyComponent() {
             className="shrink-0 w-2.5 border-2 border-solid aspect-[0.56] border-neutral-800 stroke-[2px] stroke-neutral-800"
           />
         </button>
-        <div className="shrink-0 mt-6 h-px border border-solid" style={{ backgroundColor: "#dff2ff", borderColor: "#dff2ff" }} />
-        <button className="flex gap-5 mt-6 uppercase w-full justify-between items-center p-2 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200" onClick={() => navigate('/Rewards')}>
+        <div className="shrink-0 h-px border border-solid" style={{ backgroundColor: "#dff2ff", borderColor: "#dff2ff" }} />
+        <button className="flex gap-5 uppercase w-full justify-between items-center p-2 pt-8 pb-8 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200" onClick={() => navigate('/Rewards')}>
           <span className="flex-auto text-left">View Latitudes Rewards</span>
           <img
             loading="lazy"
@@ -57,7 +57,7 @@ export default function MyComponent() {
             className="shrink-0 w-2.5 border-2 border-solid aspect-[0.56] border-neutral-800 stroke-[2px] stroke-neutral-800"
           />
         </button>
-        <div className="shrink-0 mt-6 h-px border border-solid" style={{ backgroundColor: "#dff2ff", borderColor: "#dff2ff" }} />
+        <div className="shrink-0 h-px border border-solid" style={{ backgroundColor: "#dff2ff", borderColor: "#dff2ff" }} />
         <div className="flex gap-4 items-center px-px mt-12 text-center">
           <img
             loading="lazy"

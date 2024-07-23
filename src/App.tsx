@@ -5,6 +5,7 @@ import Home from './pages/Home';
 import Itinerary from './pages/book/Itinerary';
 import MyProfile from './pages/account/MyProfile';
 import ProfileEdit from './pages/account/ProfileEdit';
+import UpdateSettings from './pages/account/UpdateSettings';
 //import SettingUpdate from './pages/SettingUpdate';
 //import Rewards from './pages/Rewards';
 
@@ -40,6 +41,7 @@ function App() {
         <Route path="/checkout-additional-input" element={<CheckoutAdditionalInput />} />
         <Route path="/MyProfile" element={<MyProfile />} />
         <Route path="/ProfileEdit" element={<ProfileEdit />} />
+        <Route path="/UpdateSettings" element={<UpdateSettings />} />
       </Routes>
     </Router>
   );
